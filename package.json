@@ -1,0 +1,21 @@
+{
+  "name": "keithsandbrewebsite",
+  "version": "1.0.0",
+  "description": "Scrapbooking pictures and life events",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir public && cp index.html public/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithmckay/keithsandbrewebsite.git"
+  },
+  "author": "Keith & Cyrille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keithmckay/keithsandbrewebsite/issues"
+  },
+  "homepage": "https://github.com/keithmckay/keithsandbrewebsite#readme"
+
+}
