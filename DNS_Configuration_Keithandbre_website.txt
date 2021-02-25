@@ -1,0 +1,2 @@
+Domain Name,Record Name,Record Type,Record Value
+www.keithandbre.com,_90166b13f71cce049690495ebcbdd119.www.keithandbre.com.,CNAME,_7aa8e0f2c4f9d0cb2e156fef1650ca29.hkmpvcwbzw.acm-validations.aws.
