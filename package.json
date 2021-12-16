@@ -4,7 +4,7 @@
   "description": "Scrapbooking pictures and life events",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p public && cp ./*.html public/ && cp ./*.css public/ && cp -r Pictures/ public/Pictures/",
+    "build": "rm -fr public && mkdir public && cp ./*.html public/ && cp ./*.css public/ && cp ./*.js public/ && cp -r Pictures/ public/Pictures/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
