@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/keithmckay/keithsandbrewebsite/issues"
   },
-  "homepage": "https://github.com/keithmckay/keithsandbrewebsite#readme"
+  "homepage": "https://github.com/keithmckay/keithsandbrewebsite#readme",
+  "dependencies": {
+    "medium-zoom": "^1.0.6"
+  }
 }
