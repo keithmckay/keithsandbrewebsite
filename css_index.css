@@ -68,25 +68,6 @@ li {
 
 }
 
-.gridContainer {
-    display: grid;
-    grid-template-columns: 60px 60px;
-    padding: 10px;
-    margin-right: 40px;
-
-}
-
-/* This section is to experiment with the CSS Grid and try to get 4 boxes in  */
-
-.gridContainer2 {
-    display: grid;
-    grid-template-areas: auto auto;
-    padding: 10px;
-    margin-right: 40px;
-
-}
-
-
 .videoWrapper {
     border-radius: 5%;
     border: 1px;
@@ -200,5 +181,34 @@ li {
 
 
 
+/* Grid container for the Vacations page */
+/* .gridContainerVacay {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: [first] 250px [second] 250px [third] 250px;
+  grid-template-rows: [first] 0px [second] 150px [third] 150px [fourth] 150px [fifth] 150px;
+} */
 
+.gridContainerVacay {
+  display: grid;
+  grid-auto-columns: 250px;
+  grid-auto-rows: 250px;
+  grid-auto-flow: row;
+  justify-content: center;
+}
+
+.item-1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.item-2 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.item-3 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
 
