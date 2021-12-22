@@ -191,11 +191,10 @@ li {
 
 .gridContainerVacay {
   display: grid;
-  grid-auto-columns: 33%;
-  grid-auto-rows: 500px;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: .6fr;
   grid-auto-flow: row;
   justify-content: center;
-  margin-left: 8%;
   place-items: center;
 }
 
