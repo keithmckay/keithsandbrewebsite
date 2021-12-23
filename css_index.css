@@ -28,6 +28,18 @@ li {
     
 }
 
+.header2 {
+  font-family: "Cormorant", 'serif';font-size:22px;
+  text-align: center;
+  opacity: .80;
+  padding-top: 10px;
+  
+}
+
+.header-spacing {
+  padding: .2px
+}
+
 /* Make the boxes corners round instead of square */
 .cornerRadius {
     border-radius: 5%;
@@ -181,14 +193,7 @@ li {
 
 
 
-/* Grid container for the Vacations page */
-/* .gridContainerVacay {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: [first] 250px [second] 250px [third] 250px;
-  grid-template-rows: [first] 0px [second] 150px [third] 150px [fourth] 150px [fifth] 150px;
-} */
-
+/* CSS Grid container for image gallery */
 .gridContainerVacay {
   display: grid;
   grid-auto-columns: 1fr;
