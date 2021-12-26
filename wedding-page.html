@@ -60,36 +60,44 @@
 
   <script>
       var slideIndex = 1;
-showSlides(slideIndex);
+      showSlides(slideIndex);
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+      function plusSlides(n) {
+      showSlides(slideIndex += n);
+      }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-
-
-
+      function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
   </script>
- 
+
+  <br><br><div>
+    <div>
+      <p class="midWebsite2">Wedding video, filmed and edited by <a href="https://www.youtube.com/channel/UCkUkuyWg8vYKi-yp5_qiMFQ" >Zach Johnston</a> </p>
+    </div>
+
+    <div class="videoWrapper" data-videoid="cd080bf5-2250-4462-aef1-1a21d991689e"> 
+      <iframe class="bbVideoIframe" width="600" height="338" 
+        src="https://bbemaildelivery.com/bbext/?p=vidEmbed&id=cd080bf5-2250-4462-aef1-1a21d991689e&ar=0" 
+          frameborder="0" scrolling="no" mozallowfullscreen webkitallowfullscreen allowfullscreen>
+          </iframe>
+    </div><br><br>
 </body>
