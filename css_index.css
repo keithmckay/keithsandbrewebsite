@@ -17,6 +17,15 @@ li {
 .background-gradient {
     background: rgb(253,255,239);
     background: radial-gradient(circle, rgba(253,255,239,1) 37%, rgba(240,255,234,1) 100%);
+
+    
+    /* background: rgb(45,150,155);
+    background: linear-gradient(131deg, rgba(45,150,155,0.2) 29%, rgba(165,35,110,0.2) 100%); */
+    
+    /* background-color: #ffe5d6;
+    background-image: linear-gradient(62deg, #ffe5d6 0%, #f7e9bb 100%); */
+    
+
 }
 
 /* This is a similarr text to what Josh Lepik used with our engagement photo website */
@@ -47,8 +56,12 @@ li {
     border-radius: 5%;
     border: 1px;
     padding: 10px;
-    box-shadow: 5px 10px 8px #888888;
+    box-shadow: 5px 10px 8px #504c4c;
 
+}
+
+.border-radius {
+  border-radius: 5%;
 }
 
 /* Give text a drop down shadow that is blurred */
@@ -76,8 +89,6 @@ li {
 
 .divider {
     text-align: center;
-    background: rgb(253,255,239);
-    background: radial-gradient(circle, rgba(253,255,239,1) 37%, rgba(240,255,234,1) 100%);
     opacity: 60%;
 }
 
@@ -202,6 +213,8 @@ li {
   grid-auto-flow: row;
   justify-content: center;
   place-items: center;
+  padding-left: 15px;
+  padding-right: 15px
 }
 
 .gridContainerVacay2 {
