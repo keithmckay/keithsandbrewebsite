@@ -6,22 +6,32 @@
         <link rel="stylesheet" href="css_index.css">
          <title>Engagement and Wedding Photos</title>
             <style>
+               body {
+                    height: 2600px;
+                    background: rgb(0,0,0);
+                    background: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(78,41,0,0.9724264705882353) 65%, rgba(234,184,119,0.9220063025210083) 100%);
+               }
             </style>
     </head>
 <header> 
-  <a class="header" href="index.html">Home</a>
-  <a class="header" href="wedding-page.html">Wedding</a>
-  <a class="header" href="homes.html">Houses</a>
-  <a class="header" href="vacations.html">Vacations</a>
-  <a class="header" href="food.html">Food</a>
-  <a class="header" href="skateboarding.html">Skateboarding</a>
-  <a class="header" href="">Music</a>
-  <a class="header" href="doggos.html">Doggos</a>
 </header>
 
-<body class="background-gradient">  
+<body>  
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="wedding-page.html">Wedding</a>
+      <a href="homes.html">Houses</a>
+      <a href="vacations.html">Vacations</a>
+      <a href="food.html">Food</a>
+      <a href="skateboarding.html">Skateboarding</a>
+      <a href="doggos.html">Doggos</a>
+    </div>
+</div>
+
     <div class="header">
-        <h1 class="textShadow">The Wedgewood at Black Forrest <br> Wedding Photos 11/12/2021</h1>
+        <h1 class="top-banner">The Wedgewood at Black Forrest <br> Wedding Photos 11/12/2021</h1>
     
     <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -58,40 +68,9 @@
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
-  <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-// Next/previous controls
-      function plusSlides(n) {
-      showSlides(slideIndex += n);
-      }
-
-// Thumbnail image controls
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-        }
-
-      function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-    }
-  </script>
-
   <br><br><div>
     <div>
-      <p class="midWebsite2">Wedding video, filmed and edited by <a href="https://www.youtube.com/channel/UCkUkuyWg8vYKi-yp5_qiMFQ" >Zach Johnston</a> </p>
+      <p class="top-banner">Wedding video, filmed and edited by <a href="https://www.youtube.com/channel/UCkUkuyWg8vYKi-yp5_qiMFQ" >Zach Johnston</a> </p>
     </div>
 
     <div class="videoWrapper" data-videoid="cd080bf5-2250-4462-aef1-1a21d991689e"> 
@@ -102,7 +81,7 @@
     </div><br><br><br>
 
      <div>
-       <p class="midWebsite2">Wedding photos, filmed and edited by <a href="https://www.youtube.com/channel/UCb8HXcJe_KsUhjY-Im_EUKw" >Lepik Photography</a> </p>
+       <p class="top-banner">Wedding photos, filmed and edited by <a href="https://www.youtube.com/channel/UCb8HXcJe_KsUhjY-Im_EUKw" >Lepik Photography</a> </p>
     </div>
 
     <div class="videoWrapper">
@@ -111,4 +90,10 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe>
     </div><br><br>
+  
+
+  <footer>
+  </footer>
+  <script src='scripts-for-ketih-and-bre.js'></script>
 </body>
+</html>

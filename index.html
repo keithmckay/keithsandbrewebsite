@@ -6,93 +6,64 @@
         <link rel="stylesheet" href="css_index.css">
          <title>Home Page</title>
             <style>
+                body {
+                    height: 2450px;
+                    background: rgb(0,0,0);
+                    background: linear-gradient(180deg, rgba(0,0,0,1) 35%, rgba(78,41,0,0.9724264705882353) 65%, rgba(234,184,119,0.9220063025210083) 100%);
+}
             </style>
     </head>
     <header> 
-        <a class="header" href="index.html">Home</a>
-        <a class="header" href="wedding-page.html">Wedding</a>
-        <a class="header" href="homes.html">Houses</a>
-        <a class="header" href="vacations.html">Vacations</a>
-        <a class="header" href="food.html">Food</a>
-        <a class="header" href="skateboarding.html">Skateboarding</a>
-        <a class="header" href="">Music</a>
-        <a class="header" href="doggos.html">Doggos</a>
     </header>
-
-<!-- Welcome to the website section -->
-<body class="background-gradient"> 
-    <div class="header">
-        <img src="Pictures\image-assets\Enagement-Keith&Breanna-28_cropped.jpg" width="500" class="cornerRadius">
-            <h1 class="textShadow">Hello Traveller</h1>
-        </div> 
-
-        <div class="midWebsite" style="padding-bottom: 30px;">
-            <p>
-            I've been tinkering with this website  learn about HTML, CSS and JavaScript but more importantly to show off some of the cool things in my life.
-            </p>
-            <p>
-            My wife, Bre, and I use this website to scrapbook pictures and share our interests. 
-            </p>
-            <p>    Please enjoy your stay &#127861;
-            </p>
-    </div>
-    <br><br>
-    
-    <div class="divider">
-        <img src="Pictures\image-assets\cactus-divider-edit.png" width="600">
-
-    </div>
-
-    <br>
-    <div>
-        <div>
-            <p class="midWebsite2">These are our Corgis, <a href="doggos.html">Toph and Iroh.</a> We thought they would be cute and cuddly. Instead, they they like to pretend that they are professional wrestlers.</p>
+    <body>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="wedding-page.html">Wedding</a>
+              <a href="homes.html">Houses</a>
+              <a href="vacations.html">Vacations</a>
+              <a href="food.html">Food</a>
+              <a href="skateboarding.html">Skateboarding</a>
+              <a href="doggos.html">Doggos</a>
+            </div>
         </div>
+        <h1>
+             <p class="top-banner">Welcome to keithandbre.com</p>
+        </h1>
 
-            <div class="videoWrapper" data-videoid="14f1c0b5-5ace-4942-95a8-ee7b115cfeff">
-                <iframe class="bbVideoIframe" width="600" height="338" src="https://bbemaildelivery.com/bbext/?p=vidEmbed&id=14f1c0b5-5ace-4942-95a8-ee7b115cfeff&ar=" frameborder="0" scrolling="no" mozallowfullscreen webkitallowfullscreen allowfullscreen>
-                </iframe>
-        
-    </div><br>
 
-<!-- Divider -->
-    <br><br>
-    <div class="divider">
-        <img src="Pictures\image-assets\leaves-divider.png" width="600">
+    <div class="banner-image">
     </div>
 
-    <div class="midWebsite2">
-        <p>Some things from our life</p>
-        <div style="padding-top: 1em; padding-bottom: 1em;">
-            <li>
-            <a href="wedding-page.html">Wedding</a>  
-        
-            </li>
-            <li>
-                <a href="homes.html">Places we lived</a>
-            </li>
-            <li>
-                <a href="vacations.html">Vacations</a>
-            </li>
-            <li>
-                <a href="food.html">Food</a>
-            </li>
-            <li>
-                <a href="skateboarding.html">Skateboarding</a>
-            </li>
-            <li>
-                <a href="">Music</a>
-            </li>
-            <li>
-                <a href="doggos.html">Doggos</a>
-            </li>
-
+    <div class="row">
+        <div class="column">
+            <a href="wedding-page.html">
+                <img class="wedding-homepage" src="Pictures\Wedding\bre-getting-ready.jpg" 
+                height= 400px;>
+            </a>
         </div>
-    </div><br>
-  
+        <div class="column">
+                <p style="color:white; padding-top: 60px;">
+                    We we're offically married on December 3rd 2020 and postponed our ceremony to November 12th 2021 due to Covid. 
+                    Our ceremony was at the Wedgewood in Black Forrest and we had the time of our lives with friends and family.
+                </p>
+        </div>
+        <div class="column">
+            <a href="wedding-page.html">
+                <img class="wedding-homepage2"  src="Pictures\Wedding\keith-getting-ready.jpg" 
+                height= 350px;>
+            </a>
+        </div>
+    </div>
 
-
-
+    <div class="row">
+        <div class="column">
+            <img class="houses-homepage" src="" 
+            height= 300px;>
+        </div>
+    </div>
+ 
 <footer>
    
 </footer>

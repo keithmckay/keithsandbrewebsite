@@ -1,7 +1,7 @@
 /* css type selectors  */
 
 a:hover {
-    color: green;
+    color: rgb(204, 8, 8);
 }
 
 
@@ -11,38 +11,128 @@ li {
     padding-bottom: .5em;
 }
 
+/* header image on home page */
+
+.banner-image {
+  height: 650px;
+  background-image: url('Pictures/Wedding/silhouette.jpg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.row {
+  display: flex;
+  font-family: "Cormorant", 'serif';
+  font-size: 20px;
+}
+
+.column {
+  margin-right: 2em;
+  padding: 10px;
+  flex: 50%;
+}
+
+.wedding-homepage {
+  margin-left: 10em;
+  border-radius: 25% 10%;
+}
+
+.wedding-homepage2 {
+  margin-right: 2em;
+  border-radius: 25% 10%;
+}
 
 
-/* This is the linear gradient for the background color that is yellow/green */
+.top-banner {
+	/* padding-top: 50px;
+	color: white;
+	font-size: 20px;
+	text-align: center; */
+
+  font-family: "Cormorant", 'serif';
+  color: white;
+  font-size:30px;
+  text-align: center;
+  opacity: .80;
+  padding-top: 50px;
+  padding-right: 28px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgb(61, 39, 7);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: sticky;
+  display: inline-block;
+  padding: 20px 0 0 10px;
+  top: 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #df9f40;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(199, 91, 91, 0.562);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+/* This is the background color of the website initally */
 .background-gradient {
-    background: rgb(253,255,239);
-    background: radial-gradient(circle, rgba(253,255,239,1) 37%, rgba(240,255,234,1) 100%);
+    background: rgb(0, 0, 0);
+}
 
-    
-    /* background: rgb(45,150,155);
-    background: linear-gradient(131deg, rgba(45,150,155,0.2) 29%, rgba(165,35,110,0.2) 100%); */
-    
-    /* background-color: #ffe5d6;
-    background-image: linear-gradient(62deg, #ffe5d6 0%, #f7e9bb 100%); */
-    
-
+body {
+  height: 700px;
+  background: linear-gradient(#000000, #f1be7d);
 }
 
 /* This is a similarr text to what Josh Lepik used with our engagement photo website */
 .header {
-    font-family: "Cormorant", 'serif';font-size:22px;
-    text-shadow: 2px 2px 8px #888888;
+    font-family: "Cormorant", 'serif';
+    font-size:22px;
+    color: white;
     text-align: center;
-    opacity: .80;
     padding-top: 50px;
     padding-right: 28px;
-    
 }
 
 .header2 {
   font-family: "Cormorant", 'serif';font-size:22px;
   text-align: center;
-  opacity: .80;
   padding-top: 10px;
   
 }
@@ -56,8 +146,6 @@ li {
     border-radius: 5%;
     border: 1px;
     padding: 10px;
-    box-shadow: 5px 10px 8px #504c4c;
-
 }
 
 .border-radius {
@@ -72,6 +160,7 @@ li {
 
 .midWebsite {
     font-family: "Cormorant", 'serif';font-size:22px;
+    color: white;
     text-shadow: 2px 2px 8px #888888;
     text-align: center;
     padding: 0px 20px 20px 20px;
@@ -79,12 +168,9 @@ li {
 
 .midWebsite2 {
     font-family: "Cormorant", 'serif';font-size:20px;
-    text-shadow: 2px 2px 8px #888888;
+    color: white;
     text-align: center;
     padding: 1em;
-   
-    
-
 }
 
 .divider {
@@ -96,16 +182,11 @@ li {
     border-radius: 5%;
     border: 1px;
     padding: .5em;
-    box-shadow: 5px 8px 8px #888888;
     max-width: fit-content;
     max-height: fit-content;
     margin-left: auto;
     margin-right: auto;
-
 }
-
-
-
 
 * {box-sizing:border-box}
 
