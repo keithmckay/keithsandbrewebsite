@@ -34,13 +34,25 @@ li {
 }
 
 .wedding-homepage {
-  margin-left: 10em;
+  margin-left: 8vw;
   border-radius: 25% 10%;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+}
+
+.wedding-paragraph {
+  color:white; 
+  padding-left: 10px; 
+  font-size:1.75vw; 
+  float: left; 
 }
 
 .wedding-homepage2 {
   margin-right: 2em;
   border-radius: 25% 10%;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -81,6 +93,7 @@ li {
   display: inline-block;
   padding: 20px 0 0 10px;
   top: 0;
+  z-index: 2;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -90,7 +103,6 @@ li {
   background-color: #df9f40;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(199, 91, 91, 0.562);
-  z-index: 1;
   border-radius: 10px;
 }
 
@@ -195,6 +207,7 @@ body {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  z-index: 1;
 }
 
 /* Hide the images by default */
