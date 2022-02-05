@@ -1,14 +1,38 @@
 /* css type selectors  */
 
+
+a {
+  text-decoration: none;
+}
+
 a:hover {
     color: rgb(204, 8, 8);
+}
+
+h1 {
+  font-family: "Cormorant", 'serif';
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+  /* opacity: .80; */
+  padding-top: 50px;
+  padding-right: 28px;
+}
+
+h2 {
+  font-family: "Cormorant", 'serif';
+  color: white;
+  font-size: 2.75vw;
+  text-align: center;
+  padding: 10px 10px;
 }
 
 
 li {
 
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
 }
 
 /* header image on home page */
@@ -155,6 +179,16 @@ body {
   padding: .2px
 }
 
+/* Homes top of body image */
+.house-image {
+  border-radius: 5%;
+  border: 1px;
+  padding: 10px;
+  max-width: 60%;
+  height: auto;
+}
+
+
 /* Make the boxes corners round instead of square */
 .cornerRadius {
     border-radius: 5%;
@@ -195,13 +229,13 @@ body {
 }
 
 .videoWrapper {
+    display: flex;
     border-radius: 5%;
     border: 1px;
     padding: .5em;
-    max-width: 100%;
-    height: auto;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
 }
 
 * {box-sizing:border-box}
