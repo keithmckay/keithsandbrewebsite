@@ -22,7 +22,7 @@ h1 {
   text-align: center;
   /* opacity: .80; */
   padding-top: 50px;
-  padding-right: 28px;
+  /* padding-right: 28px; */
 }
 
 h2 {
@@ -44,12 +44,12 @@ li {
 /* header image on home page */
 
 .banner-image {
-  height: 650px;
+  height: 29vw;
   background-image: url('Pictures/Wedding/silhouette.jpg');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: .65;
+  opacity: .75;
 }
 
 .row {
@@ -76,6 +76,7 @@ li {
 .wedding-paragraph {
   color:white; 
   padding-left: 10px; 
+  padding-top: 3vw;
   font-size:1.75vw; 
   float: left; 
 }
@@ -85,6 +86,23 @@ li {
   border-radius: 25% 10%;
   max-width: 100%;
   height: auto;
+}
+
+.house-homepage {
+  padding-top: 3vw;
+  padding-left: 3vw;
+  margin-left: 8vw;
+  border-radius: 25% 10%;
+  max-width: 90%;
+  height: auto;
+}
+
+.house-paragraph {
+  color:white; 
+  padding-top: 3vw;
+  padding-left: 20px; 
+  font-size:1.75vw; 
+  float: left; 
 }
 
 
