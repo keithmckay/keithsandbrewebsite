@@ -98,11 +98,32 @@ li {
 }
 
 .house-paragraph {
-  color:white; 
+  color: white;
+  margin-right: 10px;
   padding-top: 3vw;
-  padding-left: 20px; 
+  padding-left: 8vw;
+  padding-right: 7vw;
+  font-size: 1.75vw;
+  float: left;
+}
+
+.dog-paragraph {
+  color:white; 
+  padding-top: 10vw;
+  padding-left: 10vw; 
   font-size:1.75vw; 
   float: left; 
+}
+
+
+.dog-homepage {
+  padding-top: 3vw;
+  padding-left: 3vw;
+  padding-bottom: 3vw;
+  margin-left: 8vw;
+  border-radius: 25% 10%;
+  max-width: 70%;
+  height: auto;
 }
 
 
